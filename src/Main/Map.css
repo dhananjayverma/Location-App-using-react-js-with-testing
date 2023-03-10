@@ -1,0 +1,58 @@
+container{
+    flex: 1;
+    background-color: "#fff";
+    align-items: "center";
+    justify-content: "center";
+  }
+  location_list{
+    flex: 5;
+    margin-top:16,
+  }
+  location{
+    margin-top:16;
+    margin-left:6;
+  }
+  location_text{
+    color: "#444";
+    font-weight: "bold";
+    font-size: 16;
+    width: 250;
+  }
+  time{
+    color: "#555";
+    font-size:15;
+  }
+  previous{
+    margin-top:11;
+  }
+  location_data{
+    display: "flex";
+    flex-direction: "row";
+    margin-top: 15;
+  }
+  location_name{
+    color: "#222";
+    font-weight: "bold";
+    font-size: 16;
+    width:200;
+  }
+  location_line{
+    display: "flex";
+    flex-direction: "column";
+  }
+  remove_btn{
+    margin-left:10;
+    width: 100;
+  }
+  removeAll_btn{
+    z-index: 1;
+    margin-bottom:16;
+    width: 120;
+  }
+  current {
+    color: "#111";
+    font-size: 20;
+    margin-top: 20;
+    margin-left: "-50%";
+    font-weight: "bold";
+  }

@@ -1,0 +1,82 @@
+container{
+    flex: 1;
+   background-color: "#fff";
+   align-items:  "center";
+    justify-content: "center";
+  }
+  header{
+    flex: 2;
+  }
+  heading{
+    color: "#111";
+    font-weight: "bold";
+    font-size: 20;
+    margin-top: 10;
+  }
+  current{
+    color: "#555";
+    font-size: 16;
+    margin-top: 20;
+  }
+  box_alignment{
+    display: "flex";
+    flex-direction: "row";
+  }
+  box{
+    background-color: "orange";
+    width: 40;
+    height: 40;
+    border-radius: 20,;
+    align-items: "center";
+    justify-content: "center",;
+    margin-top: 15;
+  }
+  box_text{
+    color: "white";
+    font-size: 18;
+  }
+  location_list{
+    flex: 5;
+    margin-top: 15;
+  }
+  location{
+    margin-Top: 15;
+    margin-left: 5;
+  }
+  location_text{
+    color: "#444";
+    font-weight: "bold";
+    font-size: 16;
+    width: 250;
+  }
+  time{
+    color: "#555";
+    font-size: 14;
+  }
+  previous{
+    margin-top:10;
+  }
+  location_data{
+    display: "flex";
+    flex-direction: "row";
+    margin-top: 15;
+  }
+  location_name{
+    color: "#222";
+    font-weight: "bold";
+    font-size: 16;
+    width: 200;
+  }
+  location_line{
+    display: "flex";
+    flex-direction: "column";
+  }
+  remove_btn{
+    margin-top:10;
+    width: 100,
+  }
+  removeAll_btn {
+    z-index: 1;
+    margin-bottom: 15;
+    width: 120,
+  }
